@@ -1,0 +1,149 @@
+/* 
+green #00bfa5
+grey #747474
+light grey #b1b1b1
+dark blue #1b2734
+light blue #3d83df
+box green #00ccb1
+gradient green #d4f5f6
+*/
+body{
+	margin: 0px;
+	padding: 0px;
+	font-weight: 100;
+}
+.thin-text{
+	font-weight: 100;
+	font-size: 40px;
+}
+.text-green{
+    color: #00bfa5;
+}
+.text-grey{
+    color: #747474;
+}
+.card{
+	height: 400px!important;
+}
+.bg-green{
+    background-color: #00ccb1!important;
+}
+.bg-blue{
+    background-color: #3d83df!important;
+}
+.bg-dark-blue{
+    background-color: #1b2734!important;
+}
+.navbar-brand{
+	margin-top: 0px;
+}
+.header{
+	height: 70px!important;
+}
+.option-box{
+    height: 500px!important;
+}
+.links-images{
+	width: 150px;
+	opacity: 45%;
+}
+.gipo-img{
+	width: 75px!important;
+}
+.links-images:hover{
+	opacity: 100%;
+}
+.links-title{
+	font-size: 30px;
+}
+.platform-info-title{
+	font-size: 40px;
+}
+.platform-info{
+	position: relative;
+	z-index: 5;
+	background-image: linear-gradient(to bottom right, #d4f5f6, rgb(255, 255, 255));
+}
+.info-display{
+	background-color: white;
+	padding: 10px;
+	margin: 20px 50px!important;
+	border-radius: 5px;
+	width: 250px;
+	height: 300px;
+}
+.info-row{
+	display: flex;
+	height: 800px;
+	overflow-y: hidden;
+}
+.info-icon{
+	color: #00bfa5;
+	size: 200%;
+}
+.country-text-container{
+	width: 60%;
+	margin: 10px 20%;
+	text-align: center;
+	margin-top: 100px;
+}
+.country-grid-container{
+	width: 80%;
+	margin: 35px 90px;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 350px 350px 350px;
+	grid-template-rows: 380px 380px 380px;
+	column-gap: 80px;
+	row-gap: 90px;
+}
+.grid-item{
+	background-color: white;
+	padding-bottom: 15px;
+}
+.grid-item:hover{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.coutry-name{
+	display: inline-block;
+	font-weight: 100;
+	color: #747474;
+}
+.btn{
+	display: inline-block;
+	background-color: rgb(0, 89, 255);
+	padding: 5px 10px;
+	color: white;
+	border-radius: 10px;
+
+}
+.btn:hover{
+	background-color: blue!important;
+	color: white!important;
+}
+.grid-text-container{
+	display: flex;
+	column-gap: 70px;
+}
+.grid-img{
+	margin-bottom: 15px;
+	width: 350px;
+}
+.btn-buttom{
+	margin: 15px 480px;
+}
+.final-section{
+	margin-top: 35px;
+}
+.footer{
+	border-top: 2px solid #747474;
+	margin-top: 25px;
+}
+.footer-content{
+	text-align: center;
+	margin-top: 25px;
+}
+.footer-text{
+	display: inline-block;
+}
